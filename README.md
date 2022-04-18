@@ -7,6 +7,20 @@ github , dockerhub , travis , aws
 # docker hub
 https://hub.docker.com/
 
+# AWS
+
+한대의 컴퓨터를 임대한다고 생각하면 된다.
+그리고 그 컴퓨터에 OS 를 설치하고 웹 서비스를 위한 프로그램들 (웹서버 , DB) 를
+설치해서 사용 하면 된다.
+1대의 컴퓨터를 하나의 EC2 인스턴스라고 한다.
+
+1. 우선 회원가입을 해야한다.
+2. Elastic BeanStalk 검색
+
+## EB란 무엇인가. (Elastic BeanStalk )
+AWS Elastic Beanstalk 는 Apache, Nginx 같은 친숙한 서버에서 Java , NET , PHP , Node.js , python ,Ruby ,Go 및 Docker 와 함께 개발된 웹 응용 프로그램 및 서비스를 배포하고 확장하기 쉬운 서비스이다.
+
+
 # travis
 https://travis-ci.org/
 
