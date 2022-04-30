@@ -54,3 +54,17 @@ Travis CI 에게 소스가 Push 되었다고 얘기해 준다.
 - Docker Compose 는 무엇이고 , 왜 사용하는걸까
 - redis 는 무엇인가 ??
 - 빌드를 위한 Dockerfile 을 작성한다. -> 이전에 작성했던거랑 비슷하게 작성함
+- docker container 끼리 통신을 하고싶은데 아무런 설정없이니 통신이 안된다.
+그래서 docker compose 를 통해서 설정을 해줘야 container 끼리 통신이 된다.
+- docker compose 구동시키기 위해선 그냥 구동이 안되닌 docker-compose.yml 파일작성
+그후 docker compose up
+- docker compose down 을 통해서 중단시키는것을 배움
+- docker compose up , docker compose --build , docker compose -d --build 차이점에 대해서 배운다.
+
+# 06 어플 배포해보기 실습 (개발 환경부분)
+
+- 리액트 설치
+- Dockerfile 과 Dockerfile.dev
+
+
+
