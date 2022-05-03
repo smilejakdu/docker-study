@@ -64,7 +64,11 @@ Travis CI 에게 소스가 Push 되었다고 얘기해 준다.
 # 06 어플 배포해보기 실습 (개발 환경부분)
 
 - 리액트 설치
-- Dockerfile 과 Dockerfile.dev
-
-
-
+- Dockerfile 과 Dockerfile.dev 작성 
+  Dockerfile.dev 를 build 할땐 -f 옵션을 넣어줘야한다.
+- 생성된 이미지로 docker container 실행
+  소스를 변경하게 될땐 어떻게 해야하지 ?? 다시 빌드해야하나 ??
+- docker volume 을 이용해서 소스변경에 대한 대응
+  하지만 명령어가 너무 길어진다.
+- docker compose 를 이용해서 다시 배포
+- nginx 를 이용해서 운영서버 배포 (운영서버와 개발서버의 차이)
