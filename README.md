@@ -72,3 +72,15 @@ Travis CI 에게 소스가 Push 되었다고 얘기해 준다.
   하지만 명령어가 너무 길어진다.
 - docker compose 를 이용해서 다시 배포
 - nginx 를 이용해서 운영서버 배포 (운영서버와 개발서버의 차이)
+
+# 07 간단한 어플을 실제로 배포해보기 (테스트 & 배포 부분)
+
+- github & travis ci 가입을 한다.
+- git remote , git commit , git push 에 대해서 간단 설명 
+  travis ci 와 github 와 연동 sync 맞춤
+- docker 배포하기위해서 docker compose 를 작성했는데 이번에는
+  travis 설정을 위해서 .travis.yml 파일을 작성해야한다.
+- .travis.yml 파일작성
+  sudo, language, services, before_install, script, after_success
+- aws 실제로 가입 EC2 와 Elastic Beanstalk 에 대해서 간단히 설명
+- 트래픽이 많을때와 트래픽이 많지 않았을때의 AWS EB 환경 ( 로드 발란스 )
